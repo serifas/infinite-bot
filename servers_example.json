@@ -1,0 +1,27 @@
+{
+  "servers": [
+    {
+      "note": "Server A: Vanilla Key Server",
+      "host": "server1.example.com",
+      "port": 22,
+      "username": "username1",
+      "authentication": {
+        "type": "key",
+        "keyPath": "../../access.key",
+        "passphrase": ""
+      },
+      "serverType": "Vanilla"
+    },
+    {
+      "note": "Server B: Modded Password Server",
+      "host": "server2.example.com",
+      "port": 22,
+      "username": "username2",
+      "authentication": {
+        "type": "password",
+        "password": "password2"
+      },
+      "serverType": "Modded"
+    }
+  ]
+}
